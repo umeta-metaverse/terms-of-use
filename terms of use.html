@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMETA</title>
+    <link rel="icon" type="image/x-icon" href="https://lh3.google.com/u/0/d/1gxijoHZuzmPwriNwco1nZSRhWj0X5rw1=w1920-h595-iv1">
+    <style>
+        body {
+            margin: 0;
+            padding: 2vw;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        .nav-container {
+            background-color: #ffffff;
+            padding: 1vw;
+            border-radius: 2vw;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 0.4vw 0.6vw rgba(0, 0, 0, 0.1);
+        }
+        .logo-area {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+        .button-bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            flex-grow: 1;
+            padding: 0 1vw;
+        }
+        .auth-buttons {
+            display: flex;
+            align-items: center;
+        }
+        .button, .auth-button {
+            background-color: #e0e0e0;
+            color: #333;
+            border: none;
+            padding: 1vw 2vw;
+            margin: 0.5vw;
+            border-radius: 2vw;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 1em;
+            position: relative;
+            overflow: hidden;
+            font-weight: 600;
+            display: inline-block;
+            text-decoration: none;
+            text-align: center;
+        }
+        .auth-button {
+            background-color: #87CEFA;
+            color: white;
+        }
+        .button:hover, .auth-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .button:active, .auth-button:active {
+            transform: translateY(1px);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .terms-container {
+            background-color: white;
+            padding: 2vw;
+            margin: 2vw 0;
+            border-radius: 1vw;
+            box-shadow: 0 0.4vw 0.8vw rgba(0, 0, 0, 0.1);
+        }
+        .terms-container h1, .terms-container h2, .terms-container h3, .terms-container h4 {
+            margin-bottom: 1vw;
+        }
+        .terms-container p {
+            margin-bottom: 0.8vw;
+            line-height: 1.6;
+        }
+        .terms-container ul {
+            margin-bottom: 1vw;
+            padding-left: 1.5vw;
+        }
+        .terms-container ul li {
+            margin-bottom: 0.5vw;
+        }
+        .background-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 1vw;
+            padding: 1vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .background-card .Terms-button {
+            background-color: #90EE90;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 1em;
+            font-weight: 600;
+            margin-top: 10px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .background-card .Terms-button:hover {
+            background-color: #7CFC00;
+            transform: translateY(-2px);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .background-card .Terms-button:active {
+            transform: translateY(1px);
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+        <div class="logo-area">
+            <img src="https://lh3.google.com/u/0/d/1uEXzowZSBSCrVwszgGUFtmzWtHZEe-QN=w1920-h595-iv1" alt="UMETA Logo" style="width: 100%; height: 100%; object-fit: contain;">
+        </div>
+        <div class="button-bar">
+            <a href="#" class="button">Home</a>
+            <a href="https://www.roblox.com/games/13900609638/UMETA-BETA-1-4-2" class="button">Metaverse</a>
+            <a href="https://www.umeta-metaverse.com/shop/shop.html" class="button">Shop</a>
+            <a href="#" class="button">Mint</a>
+            <a href="https://discord.gg/uUxmcEEy9q" class="button">Discord</a>
+        </div>
+        <div class="auth-buttons">
+            <a href="#" class="auth-button">Register</a>
+            <a href="#" class="auth-button">Login</a>
+        </div>
+    </div>
+
+    <!-- 條款內容區 -->
+    <div class="terms-container">
+
+
+    <div class="terms-and-conditions">
+        <h1>UMETA Terms of use</h1>
+
+        <h6>Effective Date: October 2, 2024</h6>
+        <h6>Last Updated: October 2, 2024</h6>
+        
+        <h3>1. General Terms</h3>
+        <h5>1.1 Definitions:</h5>
+        <p>In this document, "Metaverse Project" refers to the virtual space or network created by the founder of UMETA, including but not limited to virtual reality (VR), augmented reality (AR), online games, social networks, or other related virtual experiences.</p>
+        
+        <h5>1.2 Acceptance of Terms:</h5>
+        <p>Please read these terms and other relevant policy documents carefully before accessing or using the Metaverse Project or purchasing virtual land. By using the Metaverse Project or purchasing land, you agree to be bound by these terms and all applicable laws and ethical standards.</p>
+        
+        
+        
+       
+    
+     
+    <h5>1.3 Prohibited Conduct:</h5>
+        <p>While using the Metaverse Project, you must not engage in any illegal or unethical activities, including but not limited to spamming, fraud, harassment, copyright infringement, identity theft, or other malicious behaviors.</p>
+        
+        <h5>1.4 Modification of Terms:</h5>
+        <p>The Metaverse Project reserves the right to modify these terms at any time, and such modifications will take immediate effect upon posting. Your continued use of the Metaverse Project constitutes your agreement to the updated terms.</p>
+    
+        <h3>2. User Guidelines</h3>
+        <h5>2.1 Account Security and Protection:</h5>
+        <p>Users are responsible for securing their own account information, including but not limited to usernames, passwords, and other authentication data. The Metaverse Project assumes no liability for any losses resulting from insufficient account security or unauthorized access. It is strongly recommended that users enable two-factor authentication and use strong passwords to enhance security.</p>
+        
+        <h5>2.2 Safe Conduct within the Community and Metaverse:</h5>
+        <p>While participating in community and Metaverse activities, you are obligated to respect the privacy and security of other users. You are strictly prohibited from sharing or using others' personal information without explicit consent. Under no circumstances should you engage in phishing, malware distribution, or any behavior that compromises user safety.</p>
+        
+        <h5>2.3 Inappropriate and Harassing Behavior:</h5>
+        <p>Any form of harassment, inappropriate, or unethical behavior within the Metaverse or associated communities is strictly forbidden. This includes, but is not limited to, sexual harassment, violent threats, racial discrimination, hate speech, and any form of cyberbullying. Violations will result in immediate suspension or termination of accounts and may be reported to relevant authorities when applicable.</p>
+        
+        <h5>2.4 Sensitive and Inappropriate Content:</h5>
+        <p>The Metaverse Project and its community prohibit the creation or sharing of content that involves sensitive, illegal, or inappropriate subject matter. This includes, but is not limited to, adult content, hate speech, and the promotion of illegal activities. Users are also forbidden from creating, sharing, or distributing inappropriate or unlawful materials.</p>
+        
+        <h5>2.5 Code of Conduct:</h5>
+        <p>All users must adhere to the following code of conduct to ensure a safe and positive experience for everyone:</p>
+        <ul>
+            <li>No Spam: Spamming or posting irrelevant content within the Metaverse or its community is strictly prohibited.</li>
+            <li>Respect Others: Do not attack, harass, or impersonate other users.</li>
+            <li>No Fraud: Users are prohibited from engaging in fraudulent behavior, including false advertising or scams.</li>
+            <li>Respect Copyright: Unauthorized sharing of content, particularly content that infringes on the intellectual property of others, is forbidden.</li>
+        </ul>
+        
+        <h5>2.6 Reporting Mechanism and Penalties:</h5>
+        <p>If you encounter any user engaging in inappropriate behavior, you may report the user through our reporting system. The Metaverse Project reserves the right to investigate reports and take appropriate action, including but not limited to:</p>
+        <ul>
+            <li>Issuing warnings</li>
+            <li>Temporarily or permanently suspending accounts</li>
+            <li>Prohibiting participation in Metaverse activities or community events</li>
+        </ul>
+    
+        <h3>3. Disclaimer</h3>
+        <h5>3.1 Content Ownership:</h5>
+        <p>The Metaverse Project does not claim ownership of the content created by users within the Metaverse. Users grant the Metaverse Project a license to use the content, while retaining ownership of all rights to the content they create.</p>
+        
+        <h5>3.2 Third-Party Services:</h5>
+        <p>The Metaverse Project may include services or products provided by third parties and may link to third-party websites or services. Use of these third-party services or products is subject to their respective terms and conditions. The Metaverse Project makes no warranties regarding third-party services or products.</p>
+        
+        <h5>3.3 System Interruptions:</h5>
+        <p>The Metaverse Project does not guarantee uninterrupted access to the Metaverse and may experience outages due to maintenance, updates, technical issues, or other reasons. Efforts will be made to provide notice or resolutions during interruptions.</p>
+        
+        <h5>3.4 Warning Statement:</h5>
+        <p>In accordance with U.S. regulatory requirements, we remind users to fully understand the risks involved in investing or securities trading before making any purchases.</p>
+        
+        <h5>3.5 User Safety Commitment:</h5>
+        <p>We are committed to providing a safe environment within the Metaverse and its associated communities. However, users are responsible for their own behavior and security, including avoiding untrustworthy transactions, protecting personal information, and guarding against any form of fraud or inappropriate behavior.</p>
+    
+        <h3>4. Dispute Resolution</h3>
+        <h5>4.1 Governing Law:</h5>
+        <p>These terms are governed by the laws of the jurisdiction in which the event arises or the user's nationality.</p>
+        
+        <h5>4.2 Dispute Resolution:</h5>
+        <p>Any disputes arising from these terms shall be resolved through amicable negotiation. If a resolution cannot be reached, either party may file a claim with the court that has jurisdiction.</p>
+    
+        <h3>5. Miscellaneous</h3>
+        <h5>5.1 Entire Agreement:</h5>
+        <p>These terms constitute the entire agreement between you and the Metaverse Project and supersede any prior or contemporaneous written or oral agreements.</p>
+        
+        <h5>5.2 Severability:</h5>
+        <p>If any provision of these terms is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.</p>
+        
+        <h5>5.3 Reservation of Rights:</h5>
+        <p>The failure of the Metaverse Project to enforce any right or provision of these terms shall not constitute a waiver of such right or provision.</p>
+        
+        <h5>5.4 Modifications:</h5>
+        <p>The Metaverse Project reserves the right to modify these terms at any time. Updates will be communicated by posting a revised version in the Metaverse. You are responsible for regularly reviewing the latest version of these terms.</p>
+        
+        <h5>5.5 Assignment:</h5>
+        <p>You may not assign these terms or any rights and obligations herein. The Metaverse Project may assign these terms, its rights, and obligations to any successors, subsidiaries, affiliates, or other entities.</p>
+        
+        <h5>5.6 Contact Information:</h5>
+        <p>If you have any questions or concerns, please contact us through our project's Discord.</p>
+    </div>
+    </div>
+
+    <div class="background-card">
+        <p style="text-align:center;"><img width="100" height="100" src="https://lh3.google.com/u/0/d/1gxijoHZuzmPwriNwco1nZSRhWj0X5rw1=w1920-h595-iv1"></p>
+        <h5 style="text-align:center;color:rgb(145, 145, 145);">Copyright ©2024 UMETA, All rights reserved.</h5>
+        <a href="#" class="Terms-button">Terms of use</a>
+    </div>
+</body>
+</html>
